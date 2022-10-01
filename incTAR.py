@@ -9,7 +9,7 @@ from dataclasses import dataclass
 import glob
 import tarfile
 
-__version__ = '0.0.2'
+__version__ = '0.0.1'
 
 loggerHandler = logging.handlers.RotatingFileHandler('./runlog.log')
 loggerFormatter = logging.Formatter(
